@@ -59,7 +59,7 @@ def _getJsonFromStringUsingPattern(str, pattern) {
 @NonCPS
 def isSonarVerificationEnabled() {
     return env.ENABLE_SONAR == "true";
-}no
+}
 
 @NonCPS
 def SonarHostUrl() {
